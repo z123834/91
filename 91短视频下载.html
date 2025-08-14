@@ -173,8 +173,6 @@
 <body>
     <div class="slider">
         <div class="slide"><img class="P" src="./屏幕截图 2024-11-07 193812.jpg" alt=""></div>
-        <div class="slide"><img class="P" src="./屏幕截图 2024-11-07 193834.jpg" alt=""></div>
-        <div class="slide"><img class="P" src="./屏幕截图 2024-11-08 151259.jpg" alt=""></div>
         <a href="https://jm-gdown.baidu.com/appcenter/pkg/upload/a74521fe5ab34e3a2c97952454ea5854?md5hash=7030289305f524411d97a42ede44f70c&timestamp=1728708918">
             <div class="text1">线路一(超清)</div>
             <div class="text2">线路二(标清)</div>
@@ -190,21 +188,7 @@
             </marquee>
         </div>
     </div>
-    <script>
-        const slides = document.querySelectorAll('.slide');
-        let currentIndex = 0;
-
-        function showSlide(index) {
-            slides.forEach(slide => slide.style.display = 'none');
-            slides[index].style.display = 'block';
-        }
-
-        function nextSlide() {
-            currentIndex = (currentIndex + 1) % slides.length;
-            showSlide(currentIndex);
-        }
-        setInterval(nextSlide, 2000);
-    </script>
 </body>
+
 
 </html>
